@@ -64,7 +64,7 @@ DEFAULT_PAGINATION = 100
 MEMOIZE_CACHE_DIRNAME = "api_cache"
 
 # used for calculating how long our voting window is
-TIMEZONE = "US/Pacific"
+TIMEZONE = "EU/Copenhagen"
 
 # PRs that have merge conflicts and haven't been touched in this many hours
 # will be closed
