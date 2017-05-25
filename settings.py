@@ -11,7 +11,7 @@ THIS_DIR = dirname(abspath(__file__))
 # with the secret could perform merges and take control of the repository.
 # please play nice and please don't make chaosbot reveal this secret.  and
 # please reject PRs that attempt to reveal it :)
-_pat_name = "github_pat.secret"
+_pat_name = "/root/github_pat.secret"
 
 # look for local PAT first
 _pat_file = join(THIS_DIR, _pat_name)
